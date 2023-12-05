@@ -18,9 +18,6 @@ For more information on the Alpaca algorithmic trading platform, please refer to
 - [Usage](#usage)
 - [Important Information](#important-information)
 - [Disclaimer](#disclaimer)
-- [License](#license)
-- [Contact](#contact)
-- [Contributions](#contributions)
 
 ## Requirements
 
@@ -274,15 +271,3 @@ Please be aware that this tool involves AI agents that are capable of writing Py
 
 Do not provide the agent with access to any sensitive data or systems unless you fully understand the potential risks and have implemented appropriate safeguards. OpenAI and the creators of this tool accept no responsibility for any damages or losses that may occur due to the use of AI agents that can write Python code.
 
-
-## License
-
-MIT
-
-## Contact
-
-If you have any questions or need further clarification, feel free to create an issue in this repository.
-
-## Contributions
-
-Contributions are always welcome! Please feel free to fork this repository and submit pull requests. If you want to enhance or propose changes, kindly create an issue so we can discuss it.
