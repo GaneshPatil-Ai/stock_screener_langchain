@@ -10,7 +10,7 @@ import pytz
 
 from . import FinanceHelper as fh
 from .scrape_tickers import dump_all
-from langchain.agents import create_pandas_dataframe_agent
+from langchain_experimental.agents.agent_toolkits import create_pandas_dataframe_agent
 from langchain.chat_models import ChatOpenAI
 from langchain.agents.agent_types import AgentType
 
@@ -57,7 +57,9 @@ class StockScreener:
     def fetch_for_all_symbols(self, assetList, barTime):
         api = tradeapi.REST(key_id=os.environ.get('ALPACA_KEY'),
                             secret_key=os.environ.get('ALPACA_SECRET'),
-                            base_url=os.environ.get('ALPACA_URL'))
+                            base_url=os.environ.get('ALPACA_URL'),
+                            api_version = "v2"
+                            )
 
         iteratorPos = 0  # Tracks position in list of symbols to download
         assetListLen = len(assetList)

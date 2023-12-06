@@ -7,7 +7,7 @@ beautifulsoup4~=4.12.2
 requests~=2.28.1
 faiss-cpu
 duckduckgo-search
-alpaca_trade_api
+alpaca-trade-api
 pandas_market_calendars
 tabulate
 langchain_experimental
